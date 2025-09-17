@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techivo - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-6 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Techivo</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#projects" class="hover:underline">Projects</a>
+        <a href="#team" class="hover:underline">Team</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-white">
+    <h2 class="text-5xl font-extrabold text-indigo-600 mb-4">Innovating IT Solutions</h2>
+    <p class="text-lg text-gray-600 max-w-2xl mx-auto">At Techivo, we create cutting-edge solutions for businesses to scale smarter and faster. Explore our portfolio of projects and join us in shaping the future of technology.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-gray-100">
+    <div class="container mx-auto text-center mb-12">
+      <h3 class="text-3xl font-bold text-indigo-700">Our Projects</h3>
+      <p class="text-gray-600">A glimpse into what we’ve been building at Techivo</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 container mx-auto">
+      <!-- Project 1 -->
+      <div class="bg-white shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://picsum.photos/400/250?random=1" alt="Project 1" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h4 class="text-xl font-bold mb-2">CloudSync</h4>
+          <p class="text-gray-600">A secure cloud storage and collaboration tool for enterprises.</p>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="bg-white shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://picsum.photos/400/250?random=2" alt="Project 2" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h4 class="text-xl font-bold mb-2">AI Insights</h4>
+          <p class="text-gray-600">An AI-powered analytics dashboard to transform raw data into insights.</p>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="bg-white shadow-lg rounded-2xl overflow-hidden">
+        <img src="https://picsum.photos/400/250?random=3" alt="Project 3" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h4 class="text-xl font-bold mb-2">SecurePay</h4>
+          <p class="text-gray-600">A fintech platform enabling seamless and secure digital payments.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="py-16 bg-white">
+    <div class="container mx-auto text-center mb-12">
+      <h3 class="text-3xl font-bold text-indigo-700">Meet Our Team</h3>
+      <p class="text-gray-600">The people behind Techivo’s innovation</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 container mx-auto">
+      <div class="bg-gray-100 rounded-xl p-6 shadow-md">
+        <img src="https://picsum.photos/100/100?random=4" class="rounded-full mx-auto mb-4" alt="CEO">
+        <h4 class="font-bold">Ali Khan</h4>
+        <p class="text-gray-500">CEO & Founder</p>
+      </div>
+      <div class="bg-gray-100 rounded-xl p-6 shadow-md">
+        <img src="https://picsum.photos/100/100?random=5" class="rounded-full mx-auto mb-4" alt="CTO">
+        <h4 class="font-bold">Sara Ahmed</h4>
+        <p class="text-gray-500">CTO</p>
+      </div>
+      <div class="bg-gray-100 rounded-xl p-6 shadow-md">
+        <img src="https://picsum.photos/100/100?random=6" class="rounded-full mx-auto mb-4" alt="Lead Dev">
+        <h4 class="font-bold">Usman Malik</h4>
+        <p class="text-gray-500">Lead Developer</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-100">
+    <div class="container mx-auto text-center mb-12">
+      <h3 class="text-3xl font-bold text-indigo-700">Get in Touch</h3>
+      <p class="text-gray-600">We’d love to hear from you. Let’s build something amazing together.</p>
+    </div>
+
+    <form class="max-w-xl mx-auto bg-white shadow-lg rounded-xl p-8 space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400">
+      <input type="email" placeholder="Your Email" class="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400">
+      <textarea rows="5" placeholder="Your Message" class="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"></textarea>
+      <button class="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-indigo-700">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-indigo-700 text-white text-center py-6 mt-10">
+    <p>© 2025 Techivo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
